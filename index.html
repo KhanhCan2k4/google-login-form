@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login">
+        <div class="card container">
+            <img class="mx-auto logo" src="purepng.com-google-logo-2015brandlogobrand-logoiconssymbolslogosgoogle-6815229372333mqrr.png" alt="">
+            <h1 class="mx-auto">Sign in</h1>
+            <p class="mx-auto">with your Google Account</p>
+            <form class="mx-auto email" action="#" method="get" onsubmit="return toCheck()">
+                <input class="form-control" id="input-data" name="input-data" type="text" placeholder="Enter your email or phone number..">
+           
+                <a href="#">Forgot Email?</a>
+                <p class="pt-5">Not your computer? Use a Private Window to sign in.</p>
+                <a href="#">Learn more</a>
+
+                <div class="row pt-3">
+                    <div class="col">
+                        <a class=" me-auto" href="#">Create Account</a>
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn-next bg-primary btn px-4 ms-5">Next</button>
+                    </div>
+                </div>
+            </form>
+        
+        </div>
+        <div class="row pt-2">
+            <div class="col-6">
+                <select name="countries" id="countries">
+                    <option value="" selected disabled>Select your country..</option>
+                    <option value="VN">VietNam</option>
+                    <option value="US">USA</option>
+                    <option value="JP">Japan</option>
+                </select>
+            </div>
+            <div class="item-more col-2">Help</div>
+            <div class="item-more col-2">Privacy</div>
+            <div class="item-more col-2">Terms</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
