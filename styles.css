@@ -51,6 +51,7 @@ p {
     border-radius: 5px;
 }
 
-.item-more {
+.item-more > a {
     color: #8b8b8b;
+    font-weight: 400;
 }
