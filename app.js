@@ -5,7 +5,7 @@ inputData.addEventListener('input', function () {
 });
 
 function toCheck() {
-    return validateInput(inputData, /^\w+@\w+(\.\w{2,3})$/) || validateInput(inputData,/^(0|\+\d{2})\d{9}$/ );
+    return validateInput(inputData, /^\w+@\w+(\.\w{2,3})+$/) || validateInput(inputData,/^(0|\+\d{2})\d{9}$/ );
 }
 
 function validateInput(input, regex) {
